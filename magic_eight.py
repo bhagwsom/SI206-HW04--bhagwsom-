@@ -9,3 +9,11 @@ eight_ball_answers = ['It is certain', 'It is decidedly so', 'Without a doubt', 
                       "Don't count on it", 'My reply is no', 'My sources say no', 'Outlook not so good',
                       'Very doubtful']
 random_answer = random.choice(eight_ball_answers)
+
+question = input("What is your question? ")
+while question != "quit":
+
+    if question[-1] != '?':
+        print("I'm sorry, I can only answer questions.")
+    question = input("What is your question? ")
+    
