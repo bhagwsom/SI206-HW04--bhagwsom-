@@ -1,7 +1,5 @@
 import random
 
-question = input("What is your question?")
-
 eight_ball_answers = ['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes definitely',
                       'You may rely on it', 'As I see it, yes', 'Most likely', 'Outlook good',
                       'Yes', 'Signs point to yes', 'Reply hazy try again', 'Ask again later',
@@ -16,4 +14,3 @@ while question != "quit":
     if question[-1] != '?':
         print("I'm sorry, I can only answer questions.")
     question = input("What is your question? ")
-    
